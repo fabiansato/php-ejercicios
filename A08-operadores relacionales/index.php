@@ -19,4 +19,4 @@ var_dump ( $b <= $d); // false
 var_dump ( 2 <=> 1); // te va a devolver 1 ya que el primer numero es mayor
 var_dump ( 1 <=> 1); // te va a devolver 0 ya que son iguales
 var_dump ( 1 <=> 2); // te va a devolver -1 porque el primer numero es menor
-var_dump ( $a ?? $j);
+var_dump ($j ?? $a); //como la variable $a no está definida entonces toma el valor de $a
